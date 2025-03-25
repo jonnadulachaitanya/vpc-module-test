@@ -23,3 +23,6 @@ output "az_info" {
 # }
 
 # aws_availability_zones = az_info.names[0,1,2,3,4,5]
+
+
+
