@@ -25,4 +25,10 @@ output "az_info" {
 # aws_availability_zones = az_info.names[0,1,2,3,4,5]
 
 
+output "aws_vpc_default" {
+    value = module.vpc.aws_vpc_default 
+}
 
+output "main_route_table_info" {
+    value = module.vpc.main_route_table_info
+}
